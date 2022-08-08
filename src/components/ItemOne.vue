@@ -19,10 +19,10 @@ export default {
         let xData = reactive([])
         let yData = reactive([])
         function setData() {
-            console.log(data)
+            // console.log(data)
             xData = data.data.chartOne.chartData.map((v) => v.title);
             yData = data.data.chartOne.chartData.map((v) => v.num);
-            console.log(xData, yData)
+            // console.log(xData, yData)
         }
 
         async function getState() {
@@ -97,8 +97,9 @@ export default {
 
 
                 })
+                // 让echarts根据浏览器大小改变动态该改变
                 window.onresize = function () {
-                    muChart.resize()
+                    myChart.resize()
                 }
             })
 

@@ -15,7 +15,7 @@
             </section>
             <section class="itemCenter">
                <h2>地图展示</h2>
-
+                <map-page/>    
             </section>
             <section class="itemRight">
                 
@@ -37,6 +37,8 @@ import ItemOne from '../components/ItemOne.vue'
 import ItemTwo from '../components/ItemTwo.vue'
 import ItemThree from '../components/ItemThree.vue'
 import ItemFour from '../components/ItemFour.vue'
+import MapPage from '../components/MapPage.vue'
+
 
 import { inject } from 'vue'
 
@@ -47,13 +49,17 @@ export default {
         ItemOne,
         ItemTwo,
         ItemThree,
-        ItemFour
+        ItemFour,
+        MapPage,
     },
     setup(){
         let $echarts = inject('echarts')
         let $http = inject('axios')
         // console.log($echarts)
         // console.log($http)
+        return{
+            
+        }
     }
 };
 </script>
