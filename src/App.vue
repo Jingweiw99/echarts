@@ -6,6 +6,9 @@
 import * as echarts from 'echarts'
 import { provide } from 'vue'
 import axios from 'axios'
+
+// 设置baseURL
+axios.defaults.baseURL = 'http://localhost:8888'
 export default{
   setup(){
     provide('echarts',echarts)

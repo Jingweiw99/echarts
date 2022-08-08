@@ -52,8 +52,8 @@ export default {
     setup(){
         let $echarts = inject('echarts')
         let $http = inject('axios')
-        console.log($echarts)
-        console.log($http)
+        // console.log($echarts)
+        // console.log($http)
     }
 };
 </script>
@@ -77,9 +77,9 @@ header {
     min-width: 1200px;
     max-width: 2048px;
     margin: 0 auto;
-    border: 1px solid red;
+    // border: 1px solid red;
     padding: .125rem .125rem 0;
-    background-color: gray;
+    // background-color: gray;
     display: flex;
 
     .itemLeft {
