@@ -9,6 +9,9 @@
 
 
 <style lang="less">
+body{
+  background: url("~@/assets/bg.jpg") top center no-repeat;
+}
 *{
   margin: 0;
   padding: 0;
