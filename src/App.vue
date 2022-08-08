@@ -3,7 +3,15 @@
 </template>
 
 <script>
-
+import * as echarts from 'echarts'
+import { provide } from 'vue'
+import axios from 'axios'
+export default{
+  setup(){
+    provide('echarts',echarts)
+    provide('axios',axios)
+  }
+}
 
 </script>
 

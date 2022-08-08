@@ -38,7 +38,7 @@ import ItemTwo from '../components/ItemTwo.vue'
 import ItemThree from '../components/ItemThree.vue'
 import ItemFour from '../components/ItemFour.vue'
 
-
+import { inject } from 'vue'
 
 export default {
     name: 'homePage',
@@ -48,6 +48,12 @@ export default {
         ItemTwo,
         ItemThree,
         ItemFour
+    },
+    setup(){
+        let $echarts = inject('echarts')
+        let $http = inject('axios')
+        console.log($echarts)
+        console.log($http)
     }
 };
 </script>
