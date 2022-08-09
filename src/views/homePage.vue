@@ -14,7 +14,6 @@
                 </item-chart>
             </section>
             <section class="itemCenter">
-               <h2>地图展示</h2>
                 <map-page/>    
             </section>
             <section class="itemRight">
