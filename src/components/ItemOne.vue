@@ -97,7 +97,7 @@ export default {
 
 
                 })
-                // 让echarts根据浏览器大小改变动态该改变
+                // 让echarts根据浏览器大小改变动态改变
                 window.onresize = function () {
                     myChart.resize()
                 }

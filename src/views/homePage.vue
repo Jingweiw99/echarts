@@ -13,6 +13,7 @@
                     <item-two />
                 </item-chart>
             </section>
+            
             <section class="itemCenter">
                 <map-page/>    
             </section>
