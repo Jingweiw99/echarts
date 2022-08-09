@@ -15,9 +15,8 @@ export default {
     }
 
     onMounted(() => {
-      console.log("aa",mapData)
       getState().then(() => {
-        console.log("map", mapData);
+        // console.log("map", mapData);
         $echarts.registerMap("china", mapData.data.chinaData);
         let myChart = $echarts.init(document.getElementById("map"));
         myChart.setOption({

@@ -21,7 +21,7 @@ export default {
 
         onMounted(() => {
             getState().then(() => {
-                console.log('柱状图4', data.data.chartFour.chartData)
+                // console.log('柱状图4', data.data.chartFour.chartData)
                 let myChart = $echarts.init(document.getElementById('myEchartsFour'))
                 myChart.setOption({
                     gird:{

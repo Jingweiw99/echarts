@@ -22,8 +22,8 @@ export default {
 
             getState().then((res) => {
 
-                console.log(res, 'res')
-                console.log('饼状图', data.data.chartThree.chartData)
+                // console.log(res, 'res')
+                // console.log('饼状图', data.data.chartThree.chartData)
                 let myChart = $echarts.init(document.getElementById("myEchartsThree"));
 
                 myChart.setOption({

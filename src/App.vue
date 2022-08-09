@@ -8,7 +8,7 @@ import { provide } from 'vue'
 import axios from 'axios'
 
 // 设置baseURL
-axios.defaults.baseURL = 'http://localhost:8888'
+axios.defaults.baseURL = 'http://121.40.153.45:6666'
 export default{
   setup(){
     provide('echarts',echarts)

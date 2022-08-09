@@ -21,7 +21,7 @@ export default {
 
         onMounted(() => {
             getState().then(() => {
-                console.log('折线图', data.data.chartTwo.chartData)
+                // console.log('折线图', data.data.chartTwo.chartData)
                 let myCharts = $echarts.init(document.getElementById("myEchartsTwo"))
                 myCharts.setOption(
                     {
